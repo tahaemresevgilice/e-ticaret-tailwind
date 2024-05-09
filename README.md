@@ -1,5 +1,5 @@
 
-# Film Sitesi Landing Page
+# E Ticaret Sitesi 
 
 Merhaba! Tailwind CSS kullanılarak tasarlanmış bir e-ticaret sitesi projesiyle karşınızdayım. Net, modern ve etkileyici bir tasarım.
 
