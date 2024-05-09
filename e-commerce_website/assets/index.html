@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/extra.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-menu bg-gray-800 font-mont p-3">
+        <div class="container flex flex-wrap justify-between">
+            <div class="left-content flex items-center space-x-4">
+                <a href="#" class="flex items-center space-x-2 text-white text-xs group">
+                    <i class="fa-solid fa-phone text-rose-700 text-xxs"></i>
+                    <p class="group-hover:text-rose-700 transition duration-500">+021-95-51-84</p>
+                </a>
+                <a href="#" class="flex items-center space-x-2 text-white text-xs hover:text-rose-700 group">
+                    <i class="fa-regular fa-envelope text-rose-700 text-xs"></i>
+                    <p class="group-hover:text-rose-700 transition duration-500">email@email.com</p>
+                </a>
+                <a href="#" class="flex items-center space-x-2 text-white text-xs hover:text-rose-700 group">
+                    <i class="fa-solid fa-location-dot text-rose-700 text-xs"></i>
+                    <p class="group-hover:text-rose-700 transition duration-500">1734 Stonecoal Road</p>
+                </a>
+            </div>
+            <div class="left-content flex items-center space-x-4">
+                <a href="#" class="flex items-center space-x-2 text-white text-xs hover:text-rose-700 group">
+                    <i class="fa-solid fa-dollar-sign text-rose-700 text-xs"></i>
+                    <p class="group-hover:text-rose-700 transition duration-500">USD</p>
+                </a>
+                <a href="#" class="flex items-center space-x-2 text-white text-xs hover:text-rose-700 group">
+                    <i class="fa-regular fa-user text-rose-700 text-xs"></i>
+                    <p class="group-hover:text-rose-700 transition duration-500">My Account</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="search-menu bg-blacks font-mont p-3 border-b-4 border-rose-700">
+        <div class="container flex justify-between">
+            <img src="img/logo.png">
+            <div class="search flex items-center">
+                <select name="catagory" id="catagory" class="rounded-start-5 px-2 h-10">
+                    <option value="All">All Catagory</option>
+                    <option value="C01">01 Catagory</option>
+                    <option value="C02">02 Catagory</option>
+                </select>
+                <input type="text" class="px-2 h-10 w-80 focus:outline-none" placeholder="Search here">
+                <button class="p-2 bg-rose-700 text-white rounded-end-5">Search</button>
+            </div>
+            <div class="icons flex items-center space-x-10">
+                <div class="icon">
+                    <a href="#" class="text-white relative">
+                        <i class="fa-regular fa-heart  text-xl text-center flex justify-center"></i>
+                        <p class="text-xs text-center">Your Wishlist</p>
+                        <div class="rounded-full bg-rose-700 flex justify-center items-center w-4 h-4 text-xxs absolute top-0 right-4">2</div>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="#" class="text-white relative">
+                        <i class="fa-solid fa-cart-shopping text-xl text-center flex justify-center"></i>
+                        <p class="text-xs text-center">Your Cart</p>
+                        <div class="rounded-full bg-rose-700 flex justify-center items-center w-4 h-4 text-xxs absolute top-0 right-0">3</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="navBarMenu" class="bg-white py-1 border-b border-1 border-gray-300">
+        <div class="container">
+            <ul class="d-flex font-mont">
+                <li class="active p-3">
+                    <a href="#">Home</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Hot Detais</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Categories</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Laptops</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Smartphones</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Cameras</a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="a-hover">Accessories</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="bg-white py-4">
+        <div class="container flex flex-row space-x-8">
+            <div class="basis-1/3 h-64 bg-gray-300 relative overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 transform scale-100 hover:scale-110" style="background-image: url(img/shop01.png);">
+                    <div class="shop-effect bg-rose-700 opacity-90 p-4">
+                        <h2 class="text-white font-mont font-bold text-2xl mb-3">Laptop<br>Collection</h2>
+                        <div class="cta-btn">
+                            <h2 class="text-white font-sans">SHOP NOW &nbsp;<i class="fa-solid fa-circle-arrow-right"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-1/3 h-64 bg-gray-300 relative overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 transform scale-100 hover:scale-110" style="background-image: url(img/shop03.png);">
+                    <div class="shop-effect bg-rose-700 opacity-90 p-4">
+                        <h2 class="text-white font-mont font-bold text-2xl mb-3">Accessories<br>Collection</h2>
+                        <div class="cta-btn">
+                            <h2 class="text-white font-sans">SHOP NOW &nbsp;<i class="fa-solid fa-circle-arrow-right"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-1/3 h-64 bg-gray-300 relative overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 transform scale-100 hover:scale-110" style="background-image: url(img/shop02.png);">
+                    <div class="shop-effect bg-rose-700 opacity-90 p-4">
+                        <h2 class="text-white font-mont font-bold text-2xl mb-3">Cameras<br>Collection</h2>
+                        <div class="cta-btn">
+                            <h2 class="text-white font-sans">SHOP NOW &nbsp;<i class="fa-solid fa-circle-arrow-right"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4">
+        <div class="container flex flex-row space-x-8">
+            <div class="col-12 flex justify-between py-4">
+                <h1 class="text-2xl font-bold">NEW PRODUCTS</h1>
+                <ul class="flex font-bold">
+                    <li class="p-3">
+                        <a href="#" class="a-hover active">Laptops</a>
+                    </li>
+                    <li class="p-3">
+                        <a href="#" class="a-hover text-slate-400">Smartphones</a>
+                    </li>
+                    <li class="p-3">
+                        <a href="#" class="a-hover text-slate-400">Cameras</a>
+                    </li>
+                    <li class="p-3">
+                        <a href="#" class="a-hover text-slate-400">Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cards container flex flex-row space-x-4 justify-center">
+            <div class="basis-1/4 border-gray-300 border-1 p-1 text-center">
+                <img src="img/product01.png" class="img-fluid">
+                <h4 class="text-xs text-gray-400 mb-2 p-1">CATEGOTY</h4>
+                <h3 class="uppercase font-bold mb-2 p-1">product name goes here</h3>
+                <div class="price flex flex-row text-center justify-center align-items-center space-x-1 mb-3">
+                    <h3 class="text-rose-700 font-bold text-xl">$980.00</h3><h3 class="line-through text-gray-400">$990.00</h3>
+                </div>
+                <div class="starts flex flex-row justify-center text-xs text-rose-700 p-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icons flex flex-row justify-center space-x-3 p-3">
+                    <i class="fa-regular fa-heart rounded-full p-1"></i>
+                    <i class="fa-solid fa-arrow-right-arrow-left rounded-full p-1"></i>
+                    <i class="fa-regular fa-eye rounded-full p-1"></i>
+                </div>
+            </div>
+            <div class="basis-1/4 border-gray-300 border-1 p-1">
+                <img src="img/product02.png" class="img-fluid">
+                <h4 class="text-xs text-gray-400 mb-2 p-1">CATEGOTY</h4>
+                <h3 class="uppercase font-bold mb-2 p-1">product name goes here</h3>
+                <div class="price flex flex-row text-center justify-center align-items-center space-x-1 mb-3">
+                    <h3 class="text-rose-700 font-bold text-xl">$980.00</h3><h3 class="line-through text-gray-400">$990.00</h3>
+                </div>
+                <div class="starts flex flex-row justify-center text-xs text-rose-700 p-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icons flex flex-row justify-center space-x-3 p-3">
+                    <i class="fa-regular fa-heart rounded-full p-1"></i>
+                    <i class="fa-solid fa-arrow-right-arrow-left rounded-full p-1"></i>
+                    <i class="fa-regular fa-eye rounded-full p-1"></i>
+                </div>
+            </div>
+            <div class="basis-1/4 border-gray-300 border-1 p-1">
+                <img src="img/product03.png" class="img-fluid">
+                <h4 class="text-xs text-gray-400 mb-2 p-1">CATEGOTY</h4>
+                <h3 class="uppercase font-bold mb-2 p-1">product name goes here</h3>
+                <div class="price flex flex-row text-center justify-center align-items-center space-x-1 mb-3">
+                    <h3 class="text-rose-700 font-bold text-xl">$980.00</h3><h3 class="line-through text-gray-400">$990.00</h3>
+                </div>
+                <div class="starts flex flex-row justify-center text-xs text-rose-700 p-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icons flex flex-row justify-center space-x-3 p-3">
+                    <i class="fa-regular fa-heart rounded-full p-1"></i>
+                    <i class="fa-solid fa-arrow-right-arrow-left rounded-full p-1"></i>
+                    <i class="fa-regular fa-eye rounded-full p-1"></i>
+                </div>
+            </div>
+            <div class="basis-1/4 border-gray-300 border-1 p-1">
+                <img src="img/product04.png" class="img-fluid">
+                <h4 class="text-xs text-gray-400 mb-2 p-1">CATEGOTY</h4>
+                <h3 class="uppercase font-bold mb-2 p-1">product name goes here</h3>
+                <div class="price flex flex-row text-center justify-center align-items-center space-x-1 mb-3">
+                    <h3 class="text-rose-700 font-bold text-xl">$980.00</h3><h3 class="line-through text-gray-400">$990.00</h3>
+                </div>
+                <div class="starts flex flex-row justify-center text-xs text-rose-700 p-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icons flex flex-row justify-center space-x-3 p-3">
+                    <i class="fa-regular fa-heart rounded-full p-1"></i>
+                    <i class="fa-solid fa-arrow-right-arrow-left rounded-full p-1"></i>
+                    <i class="fa-regular fa-eye rounded-full p-1"></i>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
