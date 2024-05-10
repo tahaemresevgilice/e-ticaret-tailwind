@@ -45,3 +45,7 @@ li:hover .a-hover::after {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.text-gray-300.mb-2:hover{
+    color: rgb(190 18 60);
+    transition: all .5s;
+}
