@@ -49,3 +49,15 @@ li:hover .a-hover::after {
     color: rgb(190 18 60);
     transition: all .5s;
 }
+.cards-container,.cards-container2 {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.cards-container,.cards-container2::-webkit-scrollbar {
+    display: none; 
+}
